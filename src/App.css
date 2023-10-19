@@ -84,13 +84,13 @@ width: 100%;
     justify-content: flex-start;
    margin-top: 60px;
    margin-left: 200px;
+   padding-left: 150px;
    font-weight: bold;
     font-size: xx-large;
     border-bottom:2px solid #fbefc1 ;
     color: #fbefc1;
-   
-}
-
+   width: 200px;
+  }
 .results{
     display: flex;
     justify-content: flex-start;

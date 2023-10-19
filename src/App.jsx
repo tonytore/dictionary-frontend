@@ -9,21 +9,21 @@ const App = () => {
 
   const fetchDefination = async () => {
     const resp = await axios.get(`http://localhost:5000/${searchInput}`);
-   // const word = resp.data?.meaning.split(' ')
+    const word = resp.data?.meaning.split(' ')
   
   //  const def = word[1]
-    console.log(resp.data);
-    setdefination(resp.data);
+   // console.log(resp.data);
+    setdefination(word);
   };
 
+  
+
   const handleClick = () => {
-  console.log(defination);
+  //console.log(defination);
     fetchDefination();
   };
 
-  // const Filter = (e)=>{
-  //   setdefination(searchInput.filter(f=>f.))
-  // }
+
 
   return (
     <div>
