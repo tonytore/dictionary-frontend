@@ -83,11 +83,11 @@ width: 100%;
     display: flex;
     justify-content: flex-start;
    margin-top: 60px;
-   color: #fbefc1;
    margin-left: 200px;
    font-weight: bold;
     font-size: xx-large;
     border-bottom:2px solid #fbefc1 ;
+    color: #fbefc1;
    
 }
 
